@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../Incl/so_long.h"
 
 void	game_over(t_data *v, int i, int k)
 {

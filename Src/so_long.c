@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../Incl/so_long.h"
 
 void	initialize(t_data *var)
 {

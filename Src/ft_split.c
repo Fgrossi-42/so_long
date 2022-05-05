@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../Incl/so_long.h"
 
 static int	ft_is_charset(char str, char *charset)
 {

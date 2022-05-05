@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../Incl/so_long.h"
 
 bool	check_walls(t_data v)
 {
