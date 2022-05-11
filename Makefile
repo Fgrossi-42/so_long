@@ -42,7 +42,7 @@ FT_PRINTF   =   ft_printf/libftprintf.a
 
 $(OBJS_DIR)%.o : %.c $(PROJECT_H)
 	@mkdir -p $(OBJS_DIR)src
-	@$(CC) $(CC_FLAGS) $(PTHEAD_FLAG) -c $< -o $@
+	@$(CC) $(CC_FLAGS) -c $< -o $@
 	@printf	"\033[2K\r${GRN}[COMPILING]${RST} '$<' $(END)\n"
 
 $(NAME): $(OBJECTS_PREFIXED)
